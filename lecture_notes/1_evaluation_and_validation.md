@@ -47,7 +47,7 @@ The F1-Score instead is based on the Harmonic Mean which allows us to overcome t
 ### F-beta Score
 Depending on whether Precision or Recall is more important for our model we can use a generalized version of the F1-Score also denoted as F-beta Score.
 
-\\(\text{F}_{\beta} = (\text{1+N}^{2}) \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{N}^2 \cdot  \text{Precision} + \text{Recall}}\\) <br /><br />
+\\(\text{F}_{\beta} = (\text{1+{\beta}}^{2}) \cdot \frac{\text{Precision} \cdot \text{Recall}}{\text{\beta}^2 \cdot  \text{Precision} + \text{Recall}}\\) <br /><br />
 
 <img src="images/f_beta.png" width="350"/>
 
